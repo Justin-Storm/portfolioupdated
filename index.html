@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logotransparent.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+</head>
+<body id="page-top">
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+  <div class="container px-4 px-lg-5">
+    <a class="navbar-brand" href="#page-top">
+      JPortfolio
+      <i class="bi bi-folder"></i>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right my-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+      <span class="d-flex align-items-center fw-bold">
+        <span class="me-1">MENU</span>
+        <span class="navbar-toggler-icon"></span>
+      </span>
+    </button>
+    <div class="offcanvas offcanvas-end" id="offcanvas">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title">
+          JPortfolio
+          <i class="bi bi-folder"></i>
+        </h1>
+        <button class="text-light ms-auto" data-bs-dismiss="offcanvas">
+          <i class="bi bi-x fs-1"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="container px-4 px-lg-5 h-100 d-flex align-items-center justify-content-center">
+    <div class="row text-center text-light">
+      <h1>Justin Storm's Portfolio</h1>
+      <hr class="mx-auto my-5">
+      <p>Learn more about me!</p>
+      <a class="btn btn-primary fw-bold" href="#about">Start Learning</a>
+    </div>
+  </div>
+</header>
+
+<div class="scrollspy" data-bs-spy="scroll" data-bs-target="#navbar">
+
+<section class="page-section bg-dark" id="about">
+  <div class="container px-4 px-lg-5 py-5 text-center text-light">
+    <h1 class="mb-3">About Me</h1>
+    <hr class="mx-auto my-5">
+    <p class="mb-4">Hello, my name is Justin Storm. I live in New Jersey. I attend Freehold Township High School.</p>
+    <a class="btn rounded-pill" href="#hobbies">
+      <span>Explore My Hobbies</span>
+    </a>
+  </div>
+</section>
+
+<section class="page-section" id="hobbies">
+  <div class="container-fluid py-5 px-4 px-lg-5 text-center">
+    <h1 class="text-center text-light">My Hobbies</h1>
+    <hr class="mx-auto my-5">
+    <div class="hobbies-grid">
+
+        <div class="box gaming">
+          <div class="image-hover text-light">
+            <h1>Gaming</h1>
+          </div>
+        </div>
+      
+        <div class="box coding">
+          <div class="image-hover text-light">
+            <h1>Coding</h1>
+        </div>
+        </div>
+      
+        <div class="box cooking">
+          <div class="image-hover text-light">
+            <h1>Cooking</h1>
+          </div>
+        </div>
+      
+        <div class="box sports">
+          <div class="image-hover text-light">
+            <h1>Sports</h1>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="page-section" id="portfolio">
+  <div class="container-fluid py-5 text-light text-center">
+    <p class="gradient m-0 p-0">Portfolio</p>
+    <h1>Recent Projects</h1>
+    <hr class="mx-auto my-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <a class="portfolio-box porsche" href="images/Final Porsche Image.png" title="Porsche">
+          <div class="portfolio-box-caption">
+            <div class="text text-center">
+              <h1>Porsche</h1>
+              <p>Photoshop</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <a class="portfolio-box man" href="images/final.png" title="Man & Tree">
+          <div class="portfolio-box-caption">
+            <div class="text text-center">
+              <h1>Man & Tree</h1>
+              <p>Photoshop</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <a class="portfolio-box ball" href="images/crystal ball.png" title="Crystal Ball">
+          <div class="portfolio-box-caption">
+            <div class="text text-center">
+              <h1>Crystal Ball</h1>
+              <p>Photoshop</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <a class="portfolio-box octopus" href="images/octopus.png" title="Octopus">
+          <div class="portfolio-box-caption">
+            <div class="text text-center">
+              <h1>Octopus</h1>
+              <p>Illistrator</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <a class="portfolio-box crest" href="images/family crest.jpg" title="Family Crest">
+          <div class="portfolio-box-caption">
+            <div class="text text-center">
+              <h1>Family Crest</h1>
+              <p>Illistrator</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <a class="portfolio-box poster" href="images/Untitled-1.png" title="Movie Poster">
+          <div class="portfolio-box-caption">
+            <div class="text text-center">
+              <h1>Movie Poster</h1>
+              <p>Photoshop</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section py-5" id="resume">
+  <h1 class="text-light text-center top">
+    My
+    <span class="fw-bold">Resume</span>
+  </h1>
+  <hr class="mx-auto my-5 top">
+  <div class="container-fluid mt-0 py-0 px-4 px-lg-5">
+    <div class="row">
+      <div class="sidebar-align d-flex align-items-center p-0">
+        <div class="sidebar">
+          <div class="top text-center">
+            <img src="images/Logo.jpg">
+            <h2 class="text-light pt-3">Justin Storm</h2>
+            <p class="text-light">Student</p>
+            <div class="socials"></div>
+          </div>
+
+          <div class="bottom">
+            <div class="list mt-lg-4 mt-md-4">
+              <p>
+                <i class="bi bi-calendar"></i>
+                August 15, 2008
+              </p>
+              <p>
+                <i class="bi bi-geo-alt"></i>
+                Freehold, NJ
+              </p>
+              <p>
+                <i class="bi bi-envelope"></i>
+                226jstorm@frhsd.com
+              </p>
+              <a href="images/Logo.jpg" class="link d-flex justify-content-center" download>
+                <i class="bi bi-download"></i>
+                Download Profile
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="text-light py-0">
+        <h2>A Deeper Dive Into Me</h2>
+        <hr class="my-3">
+        <p>I'm student and Web Designer from Freehold New Jersey. I attend Freehold Township High School taking a variety of classes. I enjoy learning new ways to build websites and I plan to do this in the future.</p>
+        <p>In Web Design class we learn how to code HTML 5, CSS 3, and JavaScript 5. We learn different ways to problem solve, debug, and create amazing interacrtive layouts using Bootstrap 5.</p>
+        <div class="row mt-5">
+          <h2 class="mb-4">
+            What I'm Doing
+          </h2>
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+            <h3>
+              <i class="bi bi-brush"></i>
+              Web Design
+            </h3>
+            <p>I design websites to the best possible outcome and they look amazing.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+            <h3>
+              <i class="bi bi-clock"></i>
+              Time Management
+            </h3>
+            <p>I manage my time very good mostly coding and working on projects within Web Design.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h3>
+              <i class="bi bi-folder"></i>
+              Finding Files
+            </h3>
+            <p>I take time to search file explorer for any missing or unknown files.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h3>
+              <i class="bi bi-camera"></i>
+              Taking Photos
+            </h3>
+            <p>I sometimes like to take photos of things to save them and look at them later.</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<section class="page-section" id="contact">
+  <div class="container py-5 px-4 px-lg-5 text-center">
+    <h1 class="text-light" id="contact-me-text">Contact Me</h1>
+    <p class="text-light" id="thank-you-message">Thank you for submitting my contact form! I'll get back to you on your request ASAP.</p>
+    <form id="contactform" class="mt-3" action="https://sheetdb.io/api/v1/4tdgrv1zq3rs2" method="post">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 p-0 m-0 pe-lg-1 pe-md-1 mb-2">
+          <div class="form-floating mb-2">
+            <input class="form-control" type="text" placeholder="" id="name" name="data[name]" required>
+            <label for="name">Name*</label>
+          </div>
+          <div class="form-floating mb-2">
+            <input class="form-control" type="email" placeholder="" id="email" name="data[email]" required>
+            <label for="email">Email*</label>
+          </div>
+          <div class="form-floating pb-0">
+            <input class="form-control" type="tel" placeholder="" id="phone" name="data[phone]">
+            <label for="phone">Phone</label>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 p-0 m-0 ps-lg-1 ps-md-1">
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="" id="message" name="data[message]" required></textarea>
+            <label for="message">Message*</label>
+          </div>
+        </div>
+        <div class="mt-3" id="submit-button-div">
+          <button type="submit" id="submitbutton">
+            <span>Send Message</span>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<footer class="bg-black py-5">
+  <div class="container top mb-4">
+    <div class="socials">
+      <a href="https://github.com/justin-storm" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://stormxr.tech" target="_blank">
+        <i class="bi bi-code-slash"></i>
+      </a>
+      <a href="https://youtube.com" target="_blank">
+        <i class="bi bi-youtube"></i>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container bottom">
+    <div class="left small text-light">
+      <p>JPortfolio &copy; 2024</p>
+      <p>Web Designer - Justin Storm</p>
+    </div>
+    <div class="right">
+      <a href="#page-top">Top</a>
+      <a href="#about">About</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+      
+ 
+    
+</body>
+</html>
