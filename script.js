@@ -20,6 +20,7 @@ form.addEventListener("submit", e => {
   }).then(
       response => response.json()
   ).then((html) => {
+    document.getElementById('contact-me-text').innerHTML = "Thank You!"
     document.getElementById('submit-button-div').style.display = "none";
     document.getElementById('name').disabled = "true";
     document.getElementById('email').disabled = "true";
